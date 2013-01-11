@@ -1,0 +1,36 @@
+
+table.field {
+	border: 0;
+	border-collapse: collapse;
+}
+
+table.field tr {
+	border: 0;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+}
+
+table.field td.cell {
+	width: 10px;
+	height: 10px;
+	background-color: #B7DFA0;
+	border: 0;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+}
+
+table.field td.cell.BARRICADE {
+	background-color: black;
+}
+
+table.field td.cell.SNAKE {
+	background-color: white;
+}
+
+table.field td.cell.FOOD {
+	background-color: gray;
+}
+
+table.field td.cell.EXTRAFOOD {
+	background-color: red;
+}

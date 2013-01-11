@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Snake</title>
+  </head>
+  <body class="lift:content_id=main">
+  
+    <div id="main" class="lift:surround?with=default;at=content">
+		
+		<!-- Spielfeld -->
+		<div class="lift:comet?type=FieldRenderer">
+			<div class="lift:FieldSnippet"></div>
+		</div>
+		
+		<!-- Buttons -->
+		<div class="buttons">
+		
+	        <form class="lift:form.ajax">
+	          Name: <input class="lift:ChangeNameSnippet" id="chat_in"/>
+	          <input type="submit" value="Ok"/>
+	        </form>
+		
+			<div class="lift:ButtonSnippet">
+			<table>
+            	<tr>
+            		<td colspan="4"><snakebutton:newgame /></td>
+            	</tr>
+            	<tr>
+            		<td>Size:</td>
+            		<td><snakebutton:sizesmall /> </td>
+            		<td><snakebutton:sizedefault /> </td>
+            		<td><snakebutton:sizebig /> </td>
+            	</tr>
+            	<tr>
+            		<td>Speed:</td>
+            		<td><snakebutton:speedslow /> </td>
+            		<td><snakebutton:sizeddefault /> </td>
+            		<td><snakebutton:sizefast /> </td>
+            	</tr>
+			</table>
+            <table>
+                <tr>
+                  <td />
+                  <td id="btnUp">
+                  	<snakebutton:up /></td>
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                  	<snakebutton:left />
+                  </td>
+                  <td>
+                  	<snakebutton:down />
+                  </td>
+                  <td>
+                  	<snakebutton:right />
+                  </td>
+                </tr>
+            </table>
+			</div>
+
+		</div>
+	
+    </div>
+    
+  </body>
+</html>
+

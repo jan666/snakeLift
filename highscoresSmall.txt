@@ -1,0 +1,5 @@
+noName;60
+noName;18
+Enter name:;9
+Anonymous;9
+Anonymous;6
